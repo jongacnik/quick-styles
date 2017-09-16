@@ -1,4 +1,4 @@
-<h1 align="center">quick-style💨</h1>
+<h1 align="center">quick-styles💨</h1>
 
 <div align="center">
   <a href="https://nodejs.org/api/documentation.html#documentation_stability_index">
@@ -13,7 +13,7 @@ Quickly create attributes and inline-styles. Best paired with a functional css u
 ## Usage
 
 ```js
-var qs = require('quick-style')
+var qs = require('quick-styles')
 var html = require('bel')
 
 var attributes = qs('c6 p1 tac', { borderBottom: '1px solid red' })
