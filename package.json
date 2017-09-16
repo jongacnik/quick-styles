@@ -1,6 +1,6 @@
 {
   "name": "quick-styles",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Quickly create attributes and inline-styles",
   "main": "index.js",
   "scripts": {
