@@ -1,0 +1,20 @@
+{
+  "name": "quick-style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "budo test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inline-style": "^2.0.0",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "bel": "^5.1.1",
+    "budo": "^10.0.4"
+  }
+}
