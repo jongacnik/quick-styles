@@ -12,14 +12,16 @@ function quickstyle (classnames, extras) {
   var attrs = {}
   var styles = {}
 
-  options.attributes.forEach(function (attribute) {
-    if (attribute in extras) {
-      attrs[attribute] = extras[attribute]
-      delete extras[attribute]
-    }
-  })
+  if (extras && Object.keys(extras)) {
+    options.attributes.forEach(function (attribute) {
+      if (attribute in extras) {
+        attrs[attribute] = extras[attribute]
+        delete extras[attribute]
+      }
+    })
+  }
 
-  if (Object.keys(extras)) {
+  if (extras && Object.keys(extras)) {
     styles.style = options.inlineStyles
       ? inlineStyle(extras)
       : extras
