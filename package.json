@@ -1,12 +1,15 @@
 {
   "name": "quick-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly create attributes and inline-styles",
   "main": "index.js",
   "scripts": {
     "test": "budo test.js"
   },
-  "keywords": ["css", "attributes"],
+  "keywords": [
+    "css",
+    "attributes"
+  ],
   "author": "Jon Gacnik <jon@folderstudio.com> (http://jongacnik.com)",
   "license": "MIT",
   "dependencies": {
